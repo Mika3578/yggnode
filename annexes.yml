@@ -1,26 +1,123 @@
 # Details about flaresolverr server location
-# Accessing to it by default using http protocol
 flaresolverr:
-  ipAdress: flareServerIp
+  ipAddress: flareServerIp
   port: 8191
 
 # Details about node Server
 node:
-# Example : rss.example.net
-  ipAdress: DomainNameOrIp
-# Port where service is listening. Even with https enable, port could be randomly different such as 20385 or anything else.
+  # Example: rss.example.net
+  ipAddress: DomainNameOrIp
+  # Port where service is listening. Even with https enabled, the port could be randomly different such as 20385 or anything else.
   port: 443
-# Protocol to use to access this server
+  # Protocol to use to access this server
   protocol: https
 
 # YGG categories details including idNumber and name associated with.
 sub-Categories:
-  id: [2171, 2172, 2173, 2174, 2175, 2176, 2177, 2147, 2148, 2149, 2150, 2151, 2152, 2153, 2154, 2155, 2156, 2157, 2158, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2168, 2169, 2170, 2159, 2160, 2161, 2162, 2163, 2164, 2165, 2166, 2167]
-  idLabel: ["Linux", "MacOS", "Windows", "Smartphone", "Tablette", "Formation", "Autre", "Karaoké", "Musique", "Samples", "Podcast Radio", "Audio", "Bds", "Comics", "Livres", "Mangas", "Presse", "Emulateurs", "Roms", "Animation", "Animation Série", "Concert", "Documentaire", "Emission TV", "Film", "Série TV", "Spectacle", "Sport", "Vidéo-clips", "Applications", "Cartes", "Divers", "Linux", "MacOS", "Windows", "Microsoft", "Nintendo", "Sony", "Smartphone", "Tablette", "Autre"]
+  id:
+    - 2171
+    - 2172
+    - 2173
+    - 2174
+    - 2175
+    - 2176
+    - 2177
+    - 2147
+    - 2148
+    - 2149
+    - 2150
+    - 2151
+    - 2152
+    - 2153
+    - 2154
+    - 2155
+    - 2156
+    - 2157
+    - 2158
+    - 2178
+    - 2179
+    - 2180
+    - 2181
+    - 2182
+    - 2183
+    - 2184
+    - 2185
+    - 2186
+    - 2187
+    - 2168
+    - 2169
+    - 2170
+  idLabel:
+    - "Linux"
+    - "MacOS"
+    - "Windows"
+    - "Smartphone"
+    - "Tablette"
+    - "Formation"
+    - "Autre"
+    - "Karaoké"
+    - "Musique"
+    - "Samples"
+    - "Podcast Radio"
+    - "Audio"
+    - "Bds"
+    - "Comics"
+    - "Livres"
+    - "Mangas"
+    - "Presse"
+    - "Emulation"
+    - "Animation"
+    - "Animation Série"
+    - "Concert"
+    - "Documentaire"
+    - "Emission TV"
+    - "Film"
+    - "Série TV"
+    - "Spectacle"
+    - "Sport"
+    - "Vidéo-clips"
+    - "Ebooks"
+    - "Jeux"
+    - "Microsoft"
+    - "Nintendo"
+    - "Sony"
+    - "Tablette"
+    - "Nulled"
+    - "Divers"
+    - "Mobile"
+    - "Scripts PHP & CMS"
+    - "Wordpress"
+    - "Objets"
+    - "Personnages"
+    - "Applications"
+    - "Cartes"
+    - "Divers"
+    - "Émulateur"
+    - "ROM/ISO"
 
 Categories:
-  id: [2139, 2140, 2141, 2142, 2143, 2144, 2145]
-  idLabel: ["Audio", "eBook", "Emulation", "Jeu vidéo", "GPS", "Application", "Film/Vidéo"]
+  id:
+    - 2139
+    - 2140
+    - 2141
+    - 2142
+    - 2143
+    - 2144
+    - 2145
+    - 2188
+    - 2200
+    - 2300
+  idLabel:
+    - "Audio"
+    - "eBook"
+    - "Emulation"
+    - "Jeu vidéo"
+    - "GPS"
+    - "Application"
+    - "Film/Vidéo"
+    - "XXX"
+    - "Imprimante 3D"
+    - "Nulled"
 
-# Time laps between two refreshes in seconds
+# Time lapse between two refreshes in seconds
 refreshTiming: 5
